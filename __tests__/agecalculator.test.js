@@ -1,9 +1,9 @@
-import {MercuryAgeCalculator} from './../src/agecalculator.js';
+import {AgeCalculator} from './../src/agecalculator.js';
 
-describe('MercuryAgeCalculator', () => {
+describe('AgeCalculator', () => {
 
 	test('should correctly create an age calculator object', () => {
-		const mercuryAgeCalculator = new MercuryAgeCalculator(45);
-		expect(mercuryAgeCalculator.age).toEqual(45);
+		const ageCalculator = new AgeCalculator(45);
+		expect(ageCalculator.age).toEqual(45);
 	});
 });

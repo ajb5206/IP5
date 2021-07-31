@@ -3,14 +3,14 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 
-import { MercuryAgeCalculator } from "./agecalculator.js"; 
+import { AgeCalculator } from "./agecalculator.js"; 
 
 $(document).ready(function() {
 	$('#userInputForm').submit(function(event) {
 		event.preventDefault();
 		const userAge = $('#earthAge').val();
-		const mercuryAgeCalculator = new MercuryAgeCalculator(userAge);
-		const mercuryAge = mercuryAgeCalculator.calculateAge();
+		const ageCalculator = new AgeCalculator(userAge);
+		const mercuryAge = AgeCalculator.calculateMercuryAge();
 		$('#alienAge').append("<p>" + mercuryAge + "</p>");
 	});
 });

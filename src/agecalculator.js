@@ -1,7 +1,7 @@
-export function MercuryAgeCalculator(age){
+export function AgeCalculator(age){
 	this.age = age;
 }
 
-MercuryAgeCalculator.prototype.calculateAge = function() {
+AgeCalculator.prototype.calculateAge = function() {
 	return "I can't answer that yet!";
 };
