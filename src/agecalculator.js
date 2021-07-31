@@ -13,3 +13,7 @@ AgeCalculator.prototype.calculateVenusAge = function() {
 AgeCalculator.prototype.calculateMarsAge = function() {
 	return parseInt(((this.age*365)/(1.88*365)).toFixed(1), 10);
 };
+
+AgeCalculator.prototype.calculateJupiterAge = function() {
+	return parseInt(((this.age*365)/(11.86*365)).toFixed(1), 10);
+};
