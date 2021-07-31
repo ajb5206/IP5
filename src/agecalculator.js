@@ -1,5 +1,5 @@
 export function MercuryAgeCalculator(age){
-
+	this.age = age;
 }
 
 MercuryAgeCalculator.prototype.calculateAge = function() {
