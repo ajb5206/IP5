@@ -9,7 +9,7 @@ describe('AgeCalculator', () => {
 
 	test('should correctly calculate Mercury age', () => {
 		const mercuryAge = new AgeCalculator(45);
-		expect(mercuryAge.calculateMercuryAge()).toEqual(187.5);
+		expect(mercuryAge.calculateMercuryAge()).toEqual(187);
 	});
 
 	test('should correctly calculate Venus age', () => {
