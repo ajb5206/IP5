@@ -4,6 +4,7 @@ export default class LifeExpectancyCalc {
 	}
 
 	calculate() {
-		return this.timeLeft = 5;
+		let clock = (80 - this.timeLeft);
+		return clock;
 	}
-}
+} 
