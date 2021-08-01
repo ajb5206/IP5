@@ -3,7 +3,8 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 
-import { AgeCalculator } from "./agecalculator.js"; 
+import { AgeCalculator } from "./agecalculator.js";
+import LifeExpectancyCalc from "./lifeexpectancy.js";
 
 $(document).ready(function() {
 	$('#userInputForm').submit(function(event) {
